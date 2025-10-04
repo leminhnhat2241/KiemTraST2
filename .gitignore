@@ -1,0 +1,118 @@
+# =========================
+# General
+# =========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*~
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Runtime & process files
+# =========================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Dependency directories
+# =========================
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# =========================
+# Build / output
+# =========================
+dist/
+build/
+out/
+.next/
+public/
+.parcel-cache/
+
+# Vite
+node_modules/.vite/
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+*.local
+*.key
+*.pem
+secrets.json
+
+# =========================
+# Package manager locks (optional)
+# Keep the one you use; ignore others if desired
+# =========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# Coverage
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# TypeScript
+# =========================
+.tsbuildinfo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Editors & IDEs
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# JetBrains
+*.iml
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.backup
+*.swp
+
+# End of file
